@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* *{
+    background-color: rgb(29, 28, 28);
+    color: whitesmoke;
+} */
+
+
+/* .container {
+    background-color: rgb(29, 28, 28);
+    color: whitesmoke;
+  }
+  
+  .bg-white {
+    background-color: whitesmoke;
+    color: rgb(29, 28, 28);
+  } */
