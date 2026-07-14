@@ -26,5 +26,5 @@ jobs:
         REACT_APP_API_URL=${{secrets.REACT_APP_API_URL}}
         EOT
         npm install
-        npm run build
+        CI=false npm run build
     - run: sudo cp -r /home/ubuntu/star-war/_work/star-wars-planet/star-wars-planet/build/* /var/www/star-war/
