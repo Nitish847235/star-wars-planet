@@ -25,6 +25,6 @@ jobs:
         cat <<EOT > ${{ github.workspace }}/.env
         REACT_APP_API_URL=${{secrets.REACT_APP_API_URL}}
         EOT
-        npm CI
+        npm ci
         npm run build
     - run: sudo cp -r /home/ubuntu/star-war/_work/star-wars-planet/star-wars-planet/build/* /var/www/star-war/
