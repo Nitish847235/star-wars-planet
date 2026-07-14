@@ -27,4 +27,3 @@ jobs:
         EOT
         npm install
         CI=false npm run build
-    - run: sudo cp -r /home/ubuntu/star-war/_work/star-wars-planet/star-wars-planet/build/* /var/www/star-war/
