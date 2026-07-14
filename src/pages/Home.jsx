@@ -46,7 +46,7 @@ const Home = ({mode}) => {
   return (
     <div className={`container mx-auto px-4 ${mode === 'dark' ? 'bg-gray-800 text-white' : ''}`}>
       
-      <h1 className={`text-4xl font-bold mb-4 ${mode === 'dark' ? 'text-white' : ''}`}>Planets Directory</h1>
+      <h1 className={`text-4xl font-bold mb-4 ${mode === 'dark' ? 'text-white' : ''}`}>Planets Directory List</h1>
       {!loading && <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
         {planets.map(planet => (
           <div key={planet?.name} className={` rounded shadow-md hover:shadow-[0_3px_10px_rgb(0,0,0,0.2)] p-4 ${mode === 'dark' ? 'bg-gray-700 text-white' : 'bg-white'}`}>
